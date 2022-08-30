@@ -1,3 +1,4 @@
+/*--------------------------------header--------------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -181,4 +182,57 @@
     
     .search_wrap.search_wrap_5 .search_box .input{
       padding-right: 145px;
+    }
+    /*--------------------------------main--------------------------------*/
+    .HIW{
+      position: absolute;
+      left: 0%;
+      top: 45%;
+    }
+    .h-m{
+      position: absolute;
+      width: 214px;
+      height: 19px;
+      left: 200px;
+      top: px;
+      
+      font-family: 'Red Hat Text';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+      /* identical to box height */
+      
+      
+      color: #F2785C;
+    }
+    
+    .frame1{
+      position: absolute;
+    }
+    .rect1{
+      position: absolute;
+    }
+    .vc1{
+      position: absolute;
+    }
+
+    .frame2{
+      position: absolute;
+    }
+    .rect2{
+      position: absolute;
+    }
+    .vc2{
+      position: absolute;
+    }
+
+    .frame3{
+      position: absolute;
+    }
+    .rect3{
+      position: absolute;
+    }
+    .vc3{
+      position: absolute;
     }
