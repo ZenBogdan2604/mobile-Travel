@@ -463,22 +463,25 @@
 
 /*--------------------------------header--------------------------------*/
 
-
+.ftr{
+  position: absolute;
+  top: 1140px;
+  left: px;
+}
 
 .hh{
-position: absolute;
-width: 118px;
-height: 19px;
-left: 240px;
-top: 1170px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
-
+  position: absolute;
+  width: 200px;
+  height: 19px;
+  left: 240px;
+  top: -50px;
+  
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height */  
 
 color: #F2785C;
 
@@ -489,7 +492,7 @@ color: #F2785C;
 width: 600px;
 height: 960px;
 left: 0px;
-top: 1240px;
+top: 0px;
 
 background: rgba(255, 255, 255, 0.7);
 }
@@ -504,35 +507,135 @@ background: rgba(255, 255, 255, 0.7);
       background-position:top;
 }
 .p4{
-position: absolute;
+  position: absolute;
+  width: 295px;
+  height: 102px;
+  left: 265px;
+  top: 80px;
+  
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 11px;
+  
+  color: #0D606F;
 }
 .p5{
   position: absolute;
+  width: 295px;
+  height: 102px;
+  left: 265px;
+  top: 290px;
+  
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 11px;
+  
+  color: #0D606F;
 }
 .p6{
   position: absolute;
+  width: 295px;
+  height: 102px;
+  left: 265px;
+  top: 500px;
+  
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 11px;
+  
+  color: #0D606F;
 }
 .p7{
   position: absolute;
+  width: 295px;
+  height: 102px;
+  left: 265px;
+  top: 720px;
+  
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 11px;
+  
+  color: #0D606F;
 }
 .h1{
   position: absolute;
+width: 264px;
+height: 13px;
+left: 265px;
+top: 60px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 13px;
+
+color: #0D606F;
+
 }
 .h2{
   position: absolute;
+  position: absolute;
+width: 264px;
+height: 13px;
+left: 265px;
+top: 270px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 13px;
+
+color: #0D606F;
 }
 .h3{
   position: absolute;
+  position: absolute;
+width: 264px;
+height: 13px;
+left: 265px;
+top: 480px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 13px;
+
+color: #0D606F;
 }
 .h4{
   position: absolute;
+  position: absolute;
+width: 264px;
+height: 13px;
+left: 265px;
+top: 700px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 13px;
+
+color: #0D606F;
 }
 .rect_4{
   position: absolute;
-  width: 155px;
-  height: 130px;
-  left: 0px;
-  top: 0px;
+  width: 195px;
+  height: 170px;
+  left: 20px;
+  top: 60px;
   
   background: url(robin-noguier-sydwCr54rf0-unsplash.jpg);
   filter: drop-shadow(0px 4px 4px #0D606F);
@@ -540,10 +643,10 @@ position: absolute;
 }
 .rect_5{
   position: absolute;
-width: 155px;
-height: 130px;
-left: 0px;
-top: 0px;
+width: 195px;
+height: 170px;
+left: 20px;
+top: 270px;
 
 background: url(robin-noguier-sydwCr54rf0-unsplash.jpg);
 filter: drop-shadow(0px 4px 4px #0D606F);
@@ -551,10 +654,10 @@ border-radius: 16px;
 }
 .rect_6{
   position: absolute;
-width: 155px;
-height: 130px;
-left: 0px;
-top: 0px;
+width: 195px;
+height: 170px;
+left: 20px;
+top: 480px;
 
 background: url(robin-noguier-sydwCr54rf0-unsplash.jpg);
 filter: drop-shadow(0px 4px 4px #0D606F);
@@ -562,12 +665,36 @@ border-radius: 16px;
 }
 .rect_7{
   position: absolute;
-width: 155px;
-height: 130px;
-left: 0px;
-top: 0px;
+width: 195px;
+height: 170px;
+left: 20px;
+top: 700px;
 
 background: url(robin-noguier-sydwCr54rf0-unsplash.jpg);
 filter: drop-shadow(0px 4px 4px #0D606F);
 border-radius: 16px;
+}
+
+.soc_media{
+  position: absolute;
+  top: 990px;
+  left: 200px;
+}
+.inst{
+position: absolute;
+width: 50px;
+top: px;
+left: px;
+}
+.YT{
+  position: absolute;
+  width: 50px;
+  top: 3px;
+left: 80px;
+}
+.TW{
+  position: absolute;
+  width: 50px;
+  top: 3px;
+left: 160px;
 }
